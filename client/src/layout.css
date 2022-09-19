@@ -1,0 +1,105 @@
+.main {
+  padding: 20px;
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: #005555;
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  margin-right: 20px;
+  height: auto;
+  min-height: 92vh;
+  padding: 10px;
+}
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  margin-bottom: 20px;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-action-icon {
+  font-size: 30px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.body {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  min-height: 82vh;
+  height: auto;
+  width: 100%;
+  padding: 15px;
+  overflow-x: scroll;
+}
+
+.page-title {
+  color: rgba(0, 0, 0, 0.755);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.menu {
+  margin-top: 100px;
+}
+
+.sidebar-header .product-title {
+  color: white;
+  font-weight: bold;
+}
+
+.sidebar-header .user-role {
+  color: white;
+  font-weight: semibold;
+  font-size: 16px;
+}
+
+.menu-item {
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.707);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.menu-item:hover {
+  background-color: #024545;
+}
+.menu-item a {
+  color: rgba(255, 255, 255, 0.707);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu-item i {
+  color: rgba(255, 255, 255, 0.71);
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+}
+
+.active-menu-item {
+  color: white;
+  background-color: #014141;
+  border-radius: 5px;
+}
+
+.active-menu-item i {
+  color: white;
+}
+
+.active-menu-item a {
+  color: white;
+}

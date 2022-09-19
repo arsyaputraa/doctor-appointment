@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+/* Global */
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+/* Login Pages */
+.login-page .login-form {
+  max-width: 300px;
+}
+.login-page .login-form-forgot {
+  float: right;
+}
+.login-page .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-page .login-form-button {
+  width: 100%;
+}
+
+/* antd override */
+input {
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.233) !important;
+  height: 40px !important;
+}
+input:focus,
+.ant-picker-focused {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+input#password {
+  border-radius: 0;
+}
+
+input#password-register.ant-input {
+  border: none !important;
+}
+.ant-input-affix-wrapper:focus {
+  border: none !important;
+}
+span.ant-input-password {
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.233) !important;
+}
+span.ant-input-password:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+
+label {
+  font-size: 16px !important;
+  color: black !important;
+}
+
+.ant-form-item {
+  margin: 10px 0 !important;
+}
+
+.ant-picker-input input {
+  border: none !important;
+}
+
+.ant-picker {
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.233) !important;
+  height: 40px !important;
+}
+
+.ant-select-selection-search-input {
+  border: none !important;
+}
+.ant-select-selection-search-input:focus {
+  border: none !important;
+}
+
+/* Common Styling */
+
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+
+  background-color: rgba(0, 0, 0, 0.452);
+}
+.spinner-border {
+  color: white;
+  width: 3rem;
+  height: 3rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-label {
+  font-weight: bold;
+}
+
+p.card-text {
+  padding: 0 !important;
+  margin: 0 !important;
+  color: rgba(0, 0, 0, 0.729);
+}
+.normal-text {
+  font-size: 1rem;
+}
+
+.big-text {
+  font-size: 1.5rem;
+}
+
+.card {
+  box-shadow: 0 0 2px gray;
+  border-radius: 5px !important;
+}
+
+.card-timestamp {
+  font-size: 0.7rem;
+  color: rgba(0, 0, 0, 0.599);
+}
+
+.notification {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.primary-button {
+  background-color: #005555 !important;
+  border-color: #005555 !important;
+  height: 40px !important;
+  color: white !important;
+  width: 100% !important;
+  font-size: 16px !important;
+  width: max-content !important;
+}
+
+.primary-button:disabled {
+  opacity: 0.5;
+}
+
+.full-width-button {
+  width: 100% !important;
+}
+
+.anchor {
+  color: black !important;
+  font-size: 16px !important;
+  cursor: pointer;
+}
+
+.anchor:hover {
+  text-decoration: underline;
+}
+
+/* Authentication Pages */
+.authentication {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #005555;
+}
+.authentication-form {
+  width: 400px;
+}
+
+.authentication .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: orangered;
+  color: white !important;
+  max-width: max-content !important;
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Apply Doctor */
+.form-spesialisasi {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
